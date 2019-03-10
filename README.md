@@ -5,7 +5,7 @@
 Execute o comando abaixo para construir a imagem do docker.
 
 ```
-docker build -t robertogyn19/hello-world:0.0.1 -f ./devops/Dockerfile .
+docker build -t robertogyn19/hello-world:0.1.0 -f ./devops/Dockerfile .
 ```
 
 ## Execução da imagem
@@ -13,5 +13,5 @@ docker build -t robertogyn19/hello-world:0.0.1 -f ./devops/Dockerfile .
 Para executar a imagem, rode o comando abaixo.
 
 ```
-docker run --rm robertogyn19/hello-world:0.0.1
+docker run --rm robertogyn19/hello-world:0.1.0
 ```
